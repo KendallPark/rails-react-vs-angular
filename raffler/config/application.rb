@@ -58,5 +58,8 @@ module Raffler
 
     # Version of your assets, change this if you want to expire all your assets
     config.assets.version = '1.0'
+
+    # React
+    config.react.addons = true # defaults to false
   end
 end

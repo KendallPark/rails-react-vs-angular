@@ -34,4 +34,7 @@ Raffler::Application.configure do
 
   # Expands the lines which load the assets
   config.assets.debug = true
+
+  # react
+  config.react.variant = :development
 end

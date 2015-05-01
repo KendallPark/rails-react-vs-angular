@@ -12,4 +12,8 @@
 //
 //= require angular
 //= require angular-resource
+//= require react
+//= require react_ujs
+//= require lodash
+//= require jquery
 //= require_tree .
