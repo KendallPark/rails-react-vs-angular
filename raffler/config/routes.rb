@@ -2,7 +2,8 @@ Raffler::Application.routes.draw do
   resources :entries
 
 
-  root to: 'raffle#index'
+  root to: 'react#index'
+  match 'angular' => 'angular#index'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
