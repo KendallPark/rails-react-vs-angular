@@ -54,6 +54,36 @@ form input[type='submit'], button {
   vertical-align: top;
 }
 
+.form input {
+  font-size: 20px;
+}
+.form input[type='text'] {
+  width: 535px;
+}
+.form {
+  button {
+    margin: 0;
+    -webkit-appearance: caret;
+    font-size: 14px;
+    font-size: 13px;
+    padding: 5px 10px 6px 10px;
+    font-weight: bold;
+    border: 1px solid #466A98;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    color: #FFF;
+    background: #24882B;
+    background: -webkit-gradient(linear, left top, left bottom, from(#32BE39), to(#247B28));
+    background: -moz-linear-gradient(top,  #32BE39,  #247B28);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#32BE39', endColorstr='#247B28');
+    text-decoration: none;
+    text-shadow: 0 -1px 0 #036;
+    text-align: middle;
+    vertical-align: top;
+  }
+}
+
 button {
   margin: 20px auto;
 }
